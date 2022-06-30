@@ -6,7 +6,7 @@ let dia5 = "Viernes";
 let dia6 = "Sábado"; 
 let turnos = 0;
 while (turnos <= 6){
-      let nombre = prompt("Ingrese su nombre").toLowerCase();
+      prompt("Ingrese su nombre").toLowerCase();
       if (turnos == 0) { 
             alert("Su turno es para el " + dia1);
             turnos++;
